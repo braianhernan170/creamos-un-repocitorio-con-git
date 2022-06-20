@@ -1,0 +1,123 @@
+.carousel-inner {
+    max-height: 100rem;
+}
+
+.conterner {
+    gap: 30px;
+}
+
+.pro {
+    color: white;
+    font-size: 2rem;
+    animation: move 1.5s ease-in-out infinite;
+}
+
+@keyframes move {
+    0%{
+        transform: translate(-20% 0);
+    }
+    50% {
+        text-shadow:  0 10px black;
+    }
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.gradiente{
+    background-image: linear-gradient(gray, white);
+}
+
+/*style de servico al cliente*/
+
+.title-cda{
+    text-align: center;
+}
+
+h1 a{
+    text-decoration: none;
+    color: green;
+}
+
+.opción-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content:space-evenly;
+}
+
+.opción-item{
+    background-color:lightyellow;
+    border-style: outset;
+    border-radius: 10px;
+    width: auto;
+}
+.opción-item:hover{
+    background-color: aqua;
+}
+
+.opción-item img {
+    width: 50px;
+}
+.opción-item a {
+    text-decoration: none;
+    font-size: 25px;
+}
+.p {
+    font-size: 18px;
+}
+
+/*---------------------------*/
+
+/*sub-title*/
+.sub-title {
+    background-color: gold;
+    margin: 30px;
+    padding: 16px;
+    border-radius: 8px;
+    border-style: initial;
+}
+/*-------------------------*/
+
+/*--------------grid-galeria-de-img------------- */
+.anuncio-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(370px, 1fr));
+
+}
+.anuncio-item{
+    background-color:lightyellow;
+    border-radius: 10px;
+    width: auto;
+}
+.anuncio-item img {
+    width: 400px;
+}
+
+/*-------------------------*/
+
+.container-hover{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
